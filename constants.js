@@ -1,14 +1,14 @@
 export const METADATA = {
-  author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  author: "Aditya Sonwane",
+  title: "Portfolio | Aditya Sonwane",
   description:
-    "Shubh Porwal is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  siteUrl: "https://www.shubhporwal.me/",
-  twitterHandle: "@shubhporwal24",
+    "Aditya Sonwane is a passionate DevOps Engineer, dedicated to crafting aesthetic and modern DevOps and Cloud solutions that captivate and engage users.",
+  siteUrl: "https://www.codexplorer.tech/",
+  twitterHandle: "@aadus_1",
   keywords: [
-    "Shubh Porwal",
-    "Frontend Engineer",
-    "React Native Developer",
+    "Aditya Sonwane",
+    "DevOps Engineer",
+    "Cloud Engineer",
     "Software Engineer",
     "Portfolio",
     "Devfolio",
@@ -44,59 +44,61 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
-  "I build things for the web",
-  "I create aesthetic and modern apps",
+  "A DevOps Engineer",
+  "I build things for the Cloud",
+  "I create aesthetic and modern DevOps practices",
 ];
 
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: aadus.info@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/aditya-sonwane-devops/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
+    url: "https://github.com/Aadi-Sonwane",
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
+    url: "https://www.instagram.com/aadi_sonwane",
   },
   {
     name: "twitter",
-    url: "https://x.com/shubhporwal24",
+    url: "https://x.com/aadus_1",
   },
 ];
 
 export const SKILLS = {
-  languagesAndTools: [
-    "html",
-    "css",
-    "javascript",
-    "typescript",
-    "sass",
-    "nodejs",
-    "webpack",
-    "vite",
-    "firebase",
-    "figma",
-    "tanstack-query",
+  DevOpsAndTools: [
+    "git",
+    "docker",
+    "Ansible",
+    "jenkins",
+    "terraform",
+    "kubernetes",
+    "github",
+    "gitlab",
+    "linux",
+    "splunk",
+    "prometheus",
+    "grafana",
+   
   ],
-  librariesAndFrameworks: [
-    "react",
-    "redux",
-    "nextjs",
-    "tailwindcss",
-    "styledcomponents",
-    "antdesign",
-    "chakra-ui",
+  CloudAndTech: [
+    "aws",
+    "gcp",
+    "azure",
+    "awscf",
+    "azuredevops",
+    "azureake",
+  
   ],
-  databases: ["mysql", "mongodb"],
-  other: ["git", "sanity-io"],
+  Programming : ["golang", "python", "bash"],
+  other: ["git"],
 };
 
 export const PROJECTS = [

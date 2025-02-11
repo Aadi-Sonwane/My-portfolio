@@ -54,16 +54,15 @@ const Skills = () => {
               My Skills
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-              I like to take responsibility to craft aesthetic user experience
-              using modern frontend architecture.{" "}
+            I take responsibility for automating deployments, managing cloud infrastructure, and optimizing system performance using modern DevOps practices{" "}
             </h2>
           </div>
           <div className="mt-10">
             <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
-              LANGUAGES AND TOOLS
+              DEVOPS TOOLS & TECHNOLOGIES
             </h3>
             <div className="flex items-center flex-wrap gap-6 staggered-reveal">
-              {SKILLS.languagesAndTools.map((skill) => (
+              {SKILLS.DevOpsAndTools.map((skill) => (
                 <Image
                   key={skill}
                   src={`/skills/${skill}.svg`}
@@ -76,10 +75,10 @@ const Skills = () => {
           </div>
           <div className="mt-10">
             <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
-              LIBRARIES AND FRAMEWORKS
+              CLOUD AND TECHNOLOGIES
             </h3>
             <div className="flex flex-wrap gap-6 transform-gpu staggered-reveal">
-              {SKILLS.librariesAndFrameworks.map((skill) => (
+              {SKILLS.CloudAndTech.map((skill) => (
                 <Image
                   key={skill}
                   src={`/skills/${skill}.svg`}
@@ -93,10 +92,10 @@ const Skills = () => {
           <div className="flex flex-wrap mt-10">
             <div className="mr-16 xs:mr-20 mb-6 staggered-reveal">
               <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4">
-                DATABASES
+                PROGRAMMING
               </h3>
               <div className="flex flex-wrap gap-6 transform-gpu">
-                {SKILLS.databases.map((skill) => (
+                {SKILLS.Programming.map((skill) => (
                   <Image
                     key={skill}
                     src={`/skills/${skill}.svg`}
