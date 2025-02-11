@@ -187,11 +187,11 @@ export const PROJECTS = [
 // ];
 
 export const WORK_CONTENTS = {
-  DUKAAN: [
+  Infosys: [
     {
-      title: "Dukaan",
+      title: "AWS/DEVOPS ENGINEER",
       description:
-        "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+        "As a DevOps Engineer at Infosys, I automated critical processes, reducing manual intervention by 60% and boosting operational efficiency by 40%. Led containerization strategies using Docker and Kubernetes, reducing infrastructure costs by 15%. Developed and maintained CI/CD pipelines using Jenkins, cutting deployment time by 30%.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Revolutionizing commerce, one click at a time
@@ -274,5 +274,9 @@ export const WORK_CONTENTS = {
     },
   ],
 };
+
+
+
+
 
 export const GTAG = "G-5HCTL2TJ5W";

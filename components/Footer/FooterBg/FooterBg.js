@@ -8,6 +8,7 @@ const FooterBg = () => {
       <div className={styles.background}>
         <div className={styles.background__one} />
         <div className={styles.background__two} />
+        <div className={styles.background__three} />  
       </div>
     </div>
   );
