@@ -68,7 +68,8 @@ const Contact = () => {
     const { name, email, message } = {
       name: formData.name,
       email: formData.email,
-      message: formData.message,
+      message: formData.message
+      
     };
 
     if (name === "" || email === "" || message === "") {
