@@ -54,7 +54,7 @@ const Hero = () => {
         renderer: "svg",
         loop: true,
         autoplay: true,
-        animationData: require("../../public/lottie/lottie.json"),
+        animationData: require("../../public/lottie/lottie4.json"),
       });
 
       return () => animation.destroy();
