@@ -86,18 +86,9 @@ export const SKILLS = {
     "splunk",
     "prometheus",
     "grafana",
-   
   ],
-  CloudAndTech: [
-    "aws",
-    "gcp",
-    "azure",
-    "awscf",
-    "azuredevops",
-    "azureake",
-  
-  ],
-  Programming : ["golang", "python", "bash"],
+  CloudAndTech: ["aws", "gcp", "azure", "awscf", "azuredevops", "azureake"],
+  Programming: ["golang", "python", "bash"],
   other: ["git"],
 };
 
@@ -186,97 +177,118 @@ export const PROJECTS = [
 //   },
 // ];
 
+// export const WORK_CONTENTS = {
+//   Infosys_SSE: [
+//     {
+//       id: 1,
+//       company: "Infosys",
+//       title: "Senior System Engineer",
+//       location: "Pune, Maharashtra",
+//       range: "April 2023 - Present",
+//       responsibilities: [
+//         "Managing AWS cloud infrastructure and CI/CD pipelines.",
+//         "Automating deployments with Jenkins and Terraform.",
+//         "Monitoring and logging with Splunk and CloudWatch.",
+//       ],
+//     },
+//   ],
+//   Infosys_SE: [
+//     {
+//       id: 2,
+//       company: "Infosys",
+//       title: "System Engineer",
+//       location: "Pune, Maharashtra",
+//       range: "October 2022 - April 2023",
+//       responsibilities: [
+//         "Developed and maintained automation scripts.",
+//         "Worked on Docker and Kubernetes-based deployments.",
+//         "Collaborated with teams to enhance CI/CD workflows.",
+//       ],
+//     },
+//   ],
+//   Infosys_SET: [
+//     {
+//       id: 3,
+//       company: "Infosys",
+//       title: "System Engineer Trainee",
+//       location: "Pune, Maharashtra",
+//       range: "2022",
+//       responsibilities: [
+//         "Gained hands-on experience in cloud automation.",
+//         "Assisted in AWS infrastructure setup.",
+//         "Worked on scripting tasks for automation.",
+//       ],
+//     },
+//   ],
+//   UltraRobotics: [
+//     {
+//       id: 4,
+//       company: "Ultra Robotics & Technologies",
+//       title: "Cloud Intern (AWS)",
+//       location: "Pune, Maharashtra",
+//       range: "2021",
+//       responsibilities: [
+//         "Worked on AWS cloud solutions.",
+//         "Built automation scripts for cloud resource management.",
+//         "Enhanced cloud security and compliance.",
+//       ],
+//     },
+//   ],
+// };
+
+
+
+
 export const WORK_CONTENTS = {
-  Infosys: [
+  Infosys_SSE: [
     {
-      title: "AWS/DEVOPS ENGINEER",
+      title: "Senior System Engineer [AWS/DevOps]",
       description:
-        "As a DevOps Engineer at Infosys, I automated critical processes, reducing manual intervention by 60% and boosting operational efficiency by 40%. Led containerization strategies using Docker and Kubernetes, reducing infrastructure costs by 15%. Developed and maintained CI/CD pipelines using Jenkins, cutting deployment time by 30%.",
+        "Experienced DevOps Engineer specializing in automating cloud infrastructure, optimizing CI/CD pipelines, and enhancing cloud security. Proficient in AWS services (EC2, S3, IAM, CloudWatch), Kubernetes, Terraform, Ansible, and Jenkins to drive scalable and high-performance deployments. Adept at containerization with Docker and orchestration using Kubernetes, ensuring high availability and fault tolerance. Expertise in monitoring and logging solutions with Splunk and CloudWatch for real-time system insights. Passionate about implementing DevOps best practices to improve software delivery speed, reliability, and security.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Revolutionizing commerce, one click at a time
-        </div>
-      ),
-    },
-    {
-      title: "Transformation",
-      description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
-        </div>
-      ),
-    },
-    {
-      title: "Evolution",
-      description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
-        </div>
-      ),
-    },
-    {
-      title: "Optimization",
-      description:
-        "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
+          Revolutionizing cloud infrastructure with automation, scalability, and security
         </div>
       ),
     },
   ],
-  AVIATE: [
+  Infosys_SE: [
     {
-      title: "Aviate",
+      title: "System Engineer [DevOps]",
       description:
-        "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
+        "DevOps professional with expertise in automating deployment pipelines, managing cloud resources, and improving software development workflows. Designed and implemented CI/CD pipelines with Jenkins and Git, reducing deployment time by 40%. Managed containerized applications using Docker and Kubernetes, ensuring smooth production rollouts. Worked extensively with Terraform for Infrastructure as Code (IaC) and implemented monitoring solutions using CloudWatch and Splunk. Strong focus on security best practices, cloud cost optimization, and performance tuning.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Finding the right job isn&apos;t fate, it&apos;s navigation
-        </div>
-      ),
-    },
-    {
-      title: "Innovation",
-      description:
-        "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Developer Intern
+          Accelerating deployments & optimizing cloud resources
         </div>
       ),
     },
   ],
-  SPACENOS: [
+  Infosys_SET: [
     {
-      title: "Spacenos",
+      title: "System Engineer Trainee [Cloud & DevOps]",
       description:
-        "A dynamic startup dedicated to creating innovative products that make the world a better place.",
+        "Gained hands-on experience in DevOps automation, cloud infrastructure management, and CI/CD pipeline deployment. Assisted in developing Infrastructure as Code (IaC) solutions using Terraform and automated cloud provisioning with Ansible. Built and tested Jenkins pipelines for seamless software delivery. Explored AWS services such as EC2, S3, IAM, and Lambda for cloud-based solutions. Developed scripts for cloud automation, improving infrastructure scalability and deployment efficiency.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          We build apps that solve problems for the next billion people
+          Building scalable cloud automation solutions
         </div>
       ),
     },
+  ],
+  UltraRobotics: [
     {
-      title: "Trailblazing",
+      title: "Cloud Intern [AWS]",
       description:
-        "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
+        "Worked on AWS cloud infrastructure, gaining expertise in EC2, S3, IAM, and networking configurations. Assisted in automating deployments with Terraform and Ansible, improving resource efficiency. Developed cloud security policies and implemented IAM best practices for access management. Built Python scripts for cloud automation, streamlining repetitive tasks. Contributed to optimizing cloud cost and performance through detailed monitoring and analysis using AWS CloudWatch.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Web Developer Intern
+          Optimizing cloud infrastructure for performance and security
         </div>
       ),
     },
   ],
 };
-
-
-
 
 
 export const GTAG = "G-5HCTL2TJ5W";
